@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.w3.org/2001/XMLSchema-instance"
+          version="1.0">
+
+  <!-- Define the repositories -->
+  <project name="LangGraph-GUI-backend"
+           path="LangGraph-GUI-backend"
+           revision="main"
+           remote="origin" />
+
+  <project name="LangGraph-GUI-frontend"
+           path="LangGraph-GUI-frontend"
+           revision="main"
+           remote="origin" />
+
+  <project name="examples"
+           path="examples"
+           revision="main"
+           remote="origin" />
+
+  <!-- Define the remote server -->
+  <remote name="origin"
+          fetch="https://github.com/LangGraph-GUI/" />
+
+</manifest>
